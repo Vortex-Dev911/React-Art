@@ -24,7 +24,7 @@ export default function AuthInputs() {
   const passwordNotValid = submitted && enteredPassword.trim().length < 6;
 
   return (
-    <div id="auth-inputs" className="w-full max-w-sm mx-auto p-8 rounded shadow-md bg-gradient-to-b from-stone-700 to-stone-800">
+    <div id="auth-inputs" className="w-full max-w-sm mx-auto p-8 rounded-4xl shadow-md bg-gradient-to-b from-stone-900 to-stone-600">
       <div className="flex flex-col gap-2 mb-6">
           <Input
           label="Email"
